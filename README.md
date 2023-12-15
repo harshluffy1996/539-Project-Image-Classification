@@ -22,3 +22,16 @@ previous version of the plant disease dataset. It also has a new directory conta
 images enhanced for prediction [6].
 Plant Village Dataset: The images in this dataset covers healthy and infected leaves of
 crops plants of 14 different species and 26 different diseases [7].
+
+
+Introduction and Setup: Explaining the purpose and scope of the notebook. It includes code for importing necessary libraries and setting up the environment.
+
+Data Preparation: This section involves preparing the dataset for training and testing the ResNet model. It includes steps for loading the dataset, using PyTorch's Dataset and DataLoader classes, and applying transformations such as resizing and normalization.
+
+Model Architecture: The architecture of the ResNet model. This includes defining the layers of the neural network, specifying hyperparameters, and configuring the model for the training process.
+
+Training the Model: This section contains code for training the ResNet model. It includes the loss function, optimizer, and training loop where the model learns from the training data.
+
+Model Evaluation: After training, it includes steps for evaluating the model's performance. This involves using a validation or test dataset to assess metrics like accuracy, loss, confusion matrix, ROC curve, and AUC.
+
+Results Visualization: This section is dedicated to visualizing the results of the model's performance. This includes plotting graphs or charts to represent the accuracy, loss, confusion matrix, and ROC curves.
